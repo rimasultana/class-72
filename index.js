@@ -1,5 +1,3 @@
-const x = function(){
-    return a*b;
-}
+const myFunction = new Function("a", "b", "return a * b");
 
-console.log(x);
+console.log(myFunction(4, 2));
